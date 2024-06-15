@@ -1,3 +1,25 @@
+# CODE EXPLANATION
+##  Imports: Imports necessary libraries (tflite_runtime, numpy, PIL, and matplotlib.pyplot).
+
+   ##  classify_image Function:
+        Purpose: Classifies a grayscale X-ray image for COVID-19 using a TensorFlow Lite model.
+     ##   Steps:
+            Loads the model and labels.
+            Preprocesses the image by converting it to RGB, resizing it to match the model's input shape, and normalizing pixel values.
+            Runs inference to predict the label and confidence.
+            Creates an inverted image for visualization.
+            Returns the original image, inverted image, predicted label, and confidence.
+
+   ## Example Usage:
+        Defines an example image path (NC3.jpeg).
+        Calls classify_image function to classify the image and store the results.
+
+   ## Displaying Results:
+        Uses Matplotlib to display the original and inverted images.
+        Prints the predicted label and confidence score.
+
+
+```bash
 import tflite_runtime.interpreter as tflite
 import numpy as np
 from PIL import Image
@@ -70,3 +92,4 @@ print(f"Predicted Label: {results['predicted_label']}")
 print(f"Confidence: {results['confidence']:.2f}")
 
 plt.show()
+```
