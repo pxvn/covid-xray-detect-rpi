@@ -1,14 +1,15 @@
 
 # COVID19 DETECTION FROM XRAY USING RASPBERRYPI-4
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/chestscanai) 
-[![Python 🐍](https://img.shields.io/badge/python-3.10%2B-blue?logo=python)](https://www.python.org/)
-[![TensorFlow Lite 🧠](https://img.shields.io/badge/TensorFlow%20Lite%20Runtime-RPi%204B-green?logo=tensorflow)](https://www.tensorflow.org/lite)
-[![Pillow 🖼️](https://img.shields.io/badge/Pillow-Latest-yellow?logo=pypi)](https://pillow.readthedocs.io/)
-[![Matplotlib 📈](https://img.shields.io/badge/Matplotlib-Latest-orange?logo=matplotlib)](https://matplotlib.org/)
-[![Jupyter 📓](https://img.shields.io/badge/Jupyter%20Notebook-Latest-red?logo=jupyter)](https://jupyter.org/)
-[![Raspberry Pi 🍓](https://img.shields.io/badge/Device-Raspberry%20Pi%204B-lightgrey?logo=Raspberry%20Pi)](https://www.raspberrypi.org/)
-
+<p align="center">
+<a href="https://colab.research.google.com/github/yourusername/chestscanai"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+<img src="https://img.shields.io/badge/python-3.10%2B-blue?logo=python" alt="Python 🐍">
+<img src="https://img.shields.io/badge/TensorFlow%20Lite%20Runtime-RPi%204B-green?logo=tensorflow" alt="TensorFlow Lite 🧠">
+<img src="https://img.shields.io/badge/Pillow-Latest-yellow?logo=pypi" alt="Pillow 🖼️">
+<img src="https://img.shields.io/badge/Matplotlib-Latest-orange?logo=matplotlib" alt="Matplotlib 📈">
+<img src="https://img.shields.io/badge/Jupyter%20Notebook-Latest-red?logo=jupyter" alt="Jupyter 📓">
+<img src="https://img.shields.io/badge/Device-Raspberry%20Pi%204B-lightgrey?logo=Raspberry%20Pi" alt="Raspberry Pi 🍓">
+</p>
 
 It is a powerful tool designed for the analysis of chest X-ray images to detect potential signs of COVID-19 using a pre-trained tflite model. This project is intended for educational and research purposes, serving as a practical example of applying artificial intelligence to real-world problems. 
 
