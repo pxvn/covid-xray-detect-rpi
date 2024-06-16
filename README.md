@@ -1,8 +1,6 @@
 
 # COVID19 DETECTION FROM XRAY USING RASPBERRYPI-4
 
-
-[![License](https://img.shields.io/github/license/pxvn/chestscanai)](https://github.com/yourusername/chestscanai/blob/main/LICENSE)  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/chestscanai) 
 [![Python 🐍](https://img.shields.io/badge/python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![TensorFlow Lite 🧠](https://img.shields.io/badge/TensorFlow%20Lite%20Runtime-RPi%204B-green?logo=tensorflow)](https://www.tensorflow.org/lite)
