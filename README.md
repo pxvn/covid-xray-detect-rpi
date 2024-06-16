@@ -11,11 +11,14 @@
 <img src="https://img.shields.io/badge/Device-Raspberry%20Pi%204B-lightgrey?logo=Raspberry%20Pi" alt="Raspberry Pi 🍓">
 </p>
 
-It is a powerful tool designed for the analysis of chest X-ray images to detect potential signs of COVID-19 using a pre-trained tflite model. This project is intended for educational and research purposes, serving as a practical example of applying artificial intelligence to real-world problems. 
+This powerful tool leverages artificial intelligence to analyze chest X-ray images and identify potential signs of COVID-19. The core of the project is a pre-trained TensorFlow Lite model, meticulously trained on a dataset of 5,000 X-ray images sourced from Kaggle. This extensive training enables the model to distinguish between healthy lungs and those exhibiting patterns consistent with COVID-19.
+
+Utilizes the TensorFlow Lite framework for optimized performance on devices like the Raspberry Pi.
 
 >*⚠️ Please note: This project is NOT a medical diagnostic tool and should not be used as a substitute for professional medical advice.*
+>>  We encourage researchers, developers, and medical professionals to explore, contribute to, and build upon this open-source project. Together, we can harness the 
+     power of AI to make a real difference.
 
-It is an excellent resource for learning about model, image classification, and the application of these technologies in solving pressing global health issues.
 
 ## Table of Contents
 
