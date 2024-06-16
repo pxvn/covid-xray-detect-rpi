@@ -20,21 +20,20 @@ It is an excellent resource for learning about model, image classification, and 
 
 ## Table of Contents
 
-1. [Project Description](#project-description)
-2. [How It Works (Technical Overview)](#how-it-works-technical-overview)
-3. [Installation and Setup](#installation-and-setup)
+* [Technical Overview](#how-it-works-technical-overview)
+ * [Installation and Setup](#installation-and-setup)
     - [Prerequisites](#prerequisites)
     - [Setup Instructions](#setup-instructions)
-4. [Usage](#usage)
+* [Usage](#usage)
     - [Run Jupyter Notebook](#run-jupyter-notebook)
     - [Command-line Arguments](#command-line-arguments)
-5. [Disclaimers](#disclaimers)
-6. [Additional Resources](#additional-resources)
+* [Disclaimers](#disclaimers)
+* [Additional Resources](#additional-resources)
 
 
-## How It Works (Technical Overview)
+## Technical Overview
 
-RaspiXray-Classifi(COVID-19) follows these steps to analyze chest X-ray images:
+It follows these steps to analyze chest X-ray images:
 
 1. **Image Loading**: Uses [Pillow](https://pillow.readthedocs.io/en/stable/) (PIL Fork) to read the X-ray image.
 2. **Preprocessing**: Involves resizing, normalization, and formatting the image to meet the model's input requirements.
@@ -64,14 +63,14 @@ graph LR
 | TensorFlow Lite Runtime | Compatible with RPi 4B |
 | Pillow (PIL Fork)       | Latest                |
 | Matplotlib              | Latest                |
-| Jupyter Notebook        | Latest                |
+| [Jupyter Notebook](#run-jupyter-notebook)       | Latest                |
 | Device                  | Raspberry Pi 4B       |
-| OS                      | Ubuntu 22.04 LTS      |
+| OS                      | [Ubuntu](https://ubuntu.com/download/raspberry-pi) 22.04 LTS      |
 
 
 ## Setup Instructions
 
-### 1. Create and Activate a Virtual Environment
+### Create and Activate a Virtual Environment
 
 > Open a terminal on your Raspberry Pi:
 
@@ -122,9 +121,9 @@ pip install jupyter
 ```
 
 ### Prepare Model and Label Files
-Model File (model_unquant.tflite): Ensure this TFLite model file is present and accessible from your Python script.
+- Model File (model_unquant.tflite): Ensure this TFLite model file is present and accessible from your Python script.
 
-Labels File (labels.txt): This file should contain labels corresponding to the output classes of your TFLite model. 
+- Labels File (labels.txt): This file should contain labels corresponding to the output classes of your TFLite model. 
 
 
 ## Usage
@@ -143,13 +142,13 @@ jupyter notebook
 >Use --labels to specify a different labels file path.
 
 
-# Disclaimers
+## Disclaimers
     This model is NOT a substitute for professional medical advice.
     Always consult a healthcare professional for any health-related concerns.
     The tool is designed for educational and research purposes only.
 
 
-## Potential Improvements (Optional)
+## Potential Improvements
   Integrating more advanced CNN models for improved accuracy.
   Developing a web-based interface for easier accessibility.
   Adding support for other types of medical imaging.
