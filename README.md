@@ -1,5 +1,5 @@
 
-# COVID19 DETECTION USING XRAY (IN RASPBERRYPI-4)
+# COVID19 DETECTION FROM XRAY USING RASPBERRYPI-4
 
 
 [![License](https://img.shields.io/github/license/pxvn/chestscanai)](https://github.com/yourusername/chestscanai/blob/main/LICENSE)  
@@ -11,9 +11,6 @@
 [![Jupyter 📓](https://img.shields.io/badge/Jupyter%20Notebook-Latest-red?logo=jupyter)](https://jupyter.org/)
 [![Raspberry Pi 🍓](https://img.shields.io/badge/Device-Raspberry%20Pi%204B-lightgrey?logo=Raspberry%20Pi)](https://www.raspberrypi.org/)
 
-
-
-## Project Description
 
 It is a powerful tool designed for the analysis of chest X-ray images to detect potential signs of COVID-19 using a pre-trained tflite model. This project is intended for educational and research purposes, serving as a practical example of applying artificial intelligence to real-world problems. 
 
