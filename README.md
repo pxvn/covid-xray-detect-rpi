@@ -1,5 +1,5 @@
 
-# RaspiXray-Classification(COVID-19)
+# COVID19 DETECTION USING XRAY (IN RASPBERRYPI-4)
 
 
 [![License](https://img.shields.io/github/license/pxvn/chestscanai)](https://github.com/yourusername/chestscanai/blob/main/LICENSE)  
@@ -15,7 +15,7 @@
 
 ## Project Description
 
-RaspiXray-Classifi(COVID-19) is a powerful tool designed for the analysis of chest X-ray images to detect potential signs of COVID-19 using a pre-trained tflite model. This project is intended for educational and research purposes, serving as a practical example of applying artificial intelligence to real-world problems. 
+It is a powerful tool designed for the analysis of chest X-ray images to detect potential signs of COVID-19 using a pre-trained tflite model. This project is intended for educational and research purposes, serving as a practical example of applying artificial intelligence to real-world problems. 
 
 >*⚠️ Please note: This project is NOT a medical diagnostic tool and should not be used as a substitute for professional medical advice.*
 
@@ -39,11 +39,11 @@ It is an excellent resource for learning about model, image classification, and 
 
 RaspiXray-Classifi(COVID-19) follows these steps to analyze chest X-ray images:
 
-1. **📸 Image Loading**: Uses [Pillow](https://pillow.readthedocs.io/en/stable/) (PIL Fork) to read the X-ray image.
-2. **🛠️ Preprocessing**: Involves resizing, normalization, and formatting the image to meet the model's input requirements.
-3. **🧠 Model Inference**: Utilizes [TensorFlow Lite](https://www.tensorflow.org/lite) Runtime to run the pre-trained model on the processed image.
-4. **📊 Output Interpretation**: Extracts the predicted label and confidence score from the model's output.
-5. **🖼️ Visualization**: Uses [Matplotlib](https://matplotlib.org/stable/contents.html) to display the original image alongside the prediction.
+1. **Image Loading**: Uses [Pillow](https://pillow.readthedocs.io/en/stable/) (PIL Fork) to read the X-ray image.
+2. **Preprocessing**: Involves resizing, normalization, and formatting the image to meet the model's input requirements.
+3. **Model Inference**: Utilizes [TensorFlow Lite](https://www.tensorflow.org/lite) Runtime to run the pre-trained model on the processed image.
+4. **Output Interpretation**: Extracts the predicted label and confidence score from the model's output.
+5. **Visualization**: Uses [Matplotlib](https://matplotlib.org/stable/contents.html) to display the original image alongside the prediction.
 
 ### Flow Chart
 
