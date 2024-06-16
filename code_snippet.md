@@ -71,4 +71,6 @@ axs[1].set_title("Inverted Image")
 print(f"Predicted Label: {results['predicted_label']}")
 print(f"Confidence: {results['confidence']:.2f}")
 
-plt.show()```
+plt.show()
+
+```
