@@ -44,10 +44,24 @@ The TensorFlow Lite model was trained on a dataset of 5,000 chest X-ray images s
 - Matplotlib
 
 ### Setup
+- Open a terminal on your Raspberry Pi:
+
+ `sudo apt update
+   sudo apt install python3-venv`
+
+- Install pip:
+
+`sudo apt install python3-pip`
 
 1. Create a virtual environment: `python3 -m venv venv_name`
-2. Activate it: `source venv_name/bin/activate`
-3. Install dependencies: `pip install numpy Pillow matplotlib tflite-runtime jupyter`
+2. Inastall py 3.10:
+`
+sudo apt update
+sudo apt install python3.10
+`
+
+3. Activate it: `source venv_name/bin/activate`
+4. Install dependencies: `pip install numpy Pillow matplotlib tflite-runtime jupyter`
 
 ## Usage
 
