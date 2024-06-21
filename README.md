@@ -1,6 +1,6 @@
-# COVID-19 Detection from Chest X-rays with Raspberry Pi 4
+# COVID-19 Detection from X-rays with Raspberry Pi 4
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/chestscanai)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pxvn/covid-xray-detect-rpi)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue?logo=python)](#)
 [![TensorFlow Lite on RPi 4B](https://img.shields.io/badge/TensorFlow%20Lite%20Runtime-RPi%204B-green?logo=tensorflow)](#)
 [![Raspberry Pi 4B](https://img.shields.io/badge/Device-Raspberry%20Pi%204B-lightgrey?logo=Raspberry%20Pi)](#)
