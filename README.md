@@ -5,7 +5,7 @@
 [![TensorFlow Lite on RPi 4B](https://img.shields.io/badge/TensorFlow%20Lite%20Runtime-RPi%204B-green?logo=tensorflow)](#)
 [![Raspberry Pi 4B](https://img.shields.io/badge/Device-Raspberry%20Pi%204B-lightgrey?logo=Raspberry%20Pi)](#)
 
-This project uses a TensorFlow Lite model to analyze chest X-rays for potential signs of COVID-19 on a Raspberry Pi 4.
+This project uses TensorFlow Lite model to analyze chest X-rays for potential signs of COVID-19 on a Raspberry Pi 4.
 
 ⚠️ **Disclaimer:** This is NOT a medical diagnostic tool. Consult a healthcare professional for any health concerns.
 
