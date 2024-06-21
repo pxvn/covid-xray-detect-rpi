@@ -17,6 +17,18 @@ This project uses a TensorFlow Lite model to analyze chest X-rays for potential 
 4. **Interpret results** (predicted label & confidence score)
 5. **Display results**
 
+### Flow Chart
+
+```mermaid
+graph LR
+  A[Start] --> B[Load Image]
+  B --> C[Preprocess]
+  C --> D[Run Model]
+  D --> E[Get Prediction]
+  E --> F[Display Results]
+  F --> G[End]
+```
+
 ## Model Training
 
 The TensorFlow Lite model was trained on a dataset of 5,000 chest X-ray images sourced from Kaggle, enabling it to distinguish between healthy and COVID-19-positive lungs.
