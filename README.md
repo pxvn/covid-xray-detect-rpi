@@ -78,7 +78,7 @@ This project aims to:
 
 ## Contributing
 
-We welcome contributions! Please open an issue or submit a pull request.
+I welcome contributions! Please open an issue or submit a pull request.
 
 ## Additional Resources
 
